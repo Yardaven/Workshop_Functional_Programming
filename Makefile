@@ -5,9 +5,10 @@
 ## Step 3
 ##
 
-MAIN = Main.hs
+MAIN	=	Main.hs	\
+		Operations.hs	\
 
-BIN = DoOp
+BIN 	=	 DoOp
 
 all:
 	ghc --make $(MAIN) -o $(BIN)

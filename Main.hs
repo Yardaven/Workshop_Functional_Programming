@@ -1,5 +1,7 @@
-import <Operations>
+import Operations
 
 main :: IO()
 main = do
-      print "Hello world!"
+      x<-getLine
+      let [u] = words x
+      print u
